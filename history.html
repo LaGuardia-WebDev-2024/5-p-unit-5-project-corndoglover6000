@@ -1,0 +1,143 @@
+<!-- Unit 5 Project
+Requirements
+[  ] <div> and <span>
+[  ] border:, margin:, and padding: 
+[  ] Three Images
+
+Select TWO Additional Features to Add  
+[ no ] Feature 1 - Flexbox
+[ no ] Feature 2 - Flip Card
+[ yes ] Feature 3 - Animation
+[ yes ] Feature 4 - Linear Gradient
+[ yes ] Feature 5 - Use a .Gif
+[ yes ] Feature 6 - Unique Border Styles
+-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Unit 5 Project</title>
+  <meta charset="utf-8">
+  <style>
+
+    body {
+      background-image: url(https://i.pinimg.com/originals/a7/ad/b4/a7adb4f05b67188957c796f3b2be75eb.gif);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      height: 100vh;
+      margin: auto;
+    }
+
+    pre {
+      display: block;
+      font-family: monospace;
+      white-space: pre;
+      margin: 1em 0;
+    } 
+
+
+    .art {
+      background: rgb(238, 238, 238);
+      padding: 5px;
+      width: 700px;
+      margin: 10px;
+      display: block;
+      justify-content: center;
+      border: outset 3px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 10px;
+      padding: 0px;
+      width: 710px;
+      overflow: hidden;
+      background: #2537FF;
+      background: linear-gradient(to top, #2537FF 0%, #3B9EE0 100%);
+      position: sticky;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      border: outset 3px #64acff;
+    }
+
+    ul li {
+      float: left;
+    }
+
+    ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    ul li a:hover {
+      background: #2537FF;
+      background: linear-gradient(to top, #3B9EE0 0%, #2537FF 100%);
+    }
+
+    .bigone {
+      display: grid;
+      place-items: center;
+    }
+
+  </style>
+</head>
+<body>
+  <center>
+
+  <h1>
+    ascii art admiration !!
+  </h1>
+
+  <p>
+    all of these artworks can be copy + pasted!<br> 
+    none of this art is made by me
+  </p>
+
+</center>
+
+<div class="bigone">
+<ul>
+  <li><a href="index.html">random</a></li>
+  <li><a href="unicorns.html">horses and unicorns</a></li>
+  <li><a href="patterns.html">patterns</a></li>
+  <li><a href="history.html">ascii history</a></li>
+</ul>
+
+<div class="art">
+  <p>
+(some of the art on these pages aren't technically ascii, just dot art) ascii is loosely used to refer to internet text based art, but it also has a strict definition. ascii art is defined by the "ascii standard" which consists of 128 characters used to create images.
+  </p>
+</div>
+
+<div class="art">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Brooklyn-Daily-Eagle-1875-01-06_%28cropped%29.png/250px-Brooklyn-Daily-Eagle-1875-01-06_%28cropped%29.png">
+  <p>
+text art existed long before ascii, people made images using typewriters and wrote paragraphs to be shaped in specific ways. this dates all the way back to ancient greece!
+  </p>
+  <p>
+    ascii art first emerged in the late 1970s when computers were becoming more available. computers were very limited and terminals didn't have image options so people used characters instead.
+  </p>
+  <p>
+    ascii became more and more popular during the early internet and peaked sometime in the 90s. but it is still used today.
+  </p>
+</div>
+
+<div class="art">
+  <img src="https://preview.redd.it/cat-ascii-art-im-not-sure-what-you-call-it-but-does-anyone-v0-q9ywpzk0nke81.jpg?width=640&crop=smart&auto=webp&s=88fcd182e6e4fbd8ba596d6ec436f15bd95c143d">
+  <p>
+    know this cat? this is Shift_JIS art! i have a couple of these on the website.
+  </p>
+</div>
+
+</div>
+
+</body>
+</html>
